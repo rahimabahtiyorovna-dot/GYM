@@ -1,4 +1,4 @@
-# SPORTZAL - Fitness & Gym Website
+# GYM- Fitness & Gym Website
 
 A modern, responsive fitness gym landing page designed for training enthusiasts. It features an engaging hero section, professional trainers, class schedules, a photo gallery, and an interactive contact form to help users easily connect with the gym. 🏋️‍♂️💪
 
