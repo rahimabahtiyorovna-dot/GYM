@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+<!-- NAVBAR -->
+<header class="header">
+  <div class="container nav">
+    <h2 class="logo">GYM</h2>
+
+    <ul class="menu" id="menu">
+      <li>Home</li>
+      <li>About</li>
+      <li>Classes</li>
+      <li>Gallery</li>
+      <li>Contact</li>
+    </ul>
+
+    <div class="menu-btn" id="menuBtn">☰</div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero container">
+  <div class="hero-text">
+    <h1>EXPLOSIVE TRAINING</h1>
+    <p>Transform your body with professional trainers</p>
+    <button class="btn">Get Started</button>
+  </div>
+
+  <div class="hero-img">
+    <img src="./Rectangle 25.png">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="container about-box">
+    <div class="about-video">
+      <img src="./image 2.png">
+      <div class="play">▶</div>
+    </div>
+    <div class="about-text">
+      <h2>ABOUT US</h2>
+      <p>We provide best gym training programs to build strong body.</p>
+      <button class="btn">Learn More</button>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINERS -->
+<section class="trainers container">
+  <h2>OUR TRAINERS</h2>
+
+  <div class="cards">
+    <div class="card">
+      <img src="./foto.png">
+      <h3>David Klark</h3>
+    </div>
+    <div class="card">
+      <img src="./foto (1).png">
+      <h3>Maria Yap</h3>
+    </div>
+    <div class="card">
+      <img src="./Rectangle 25.png">
+      <h3>David Klark</h3>
+    </div>
+  </div>
+</section><br><br>
+
+<!-- GALLERY -->
+<section class="gallery container">
+  <h2>GALLERY</h2>
+
+  <div class="gallery-box">
+    <img src="./Rectangle 29.png">
+    <img src="./Rectangle 30.png">
+    <img src="./Rectangle 32.png">
+    <img src="./Rectangle 34.png">
+    <img src="./Rectangle 35.png">
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="container feature-box">
+    <div class="feature">💪 Strength</div>
+    <div class="feature active">🔥 Cardio</div>
+    <div class="feature">⚡ Energy</div>
+  </div>
+</section>
+<section class="features">
+  <div class="container">
+
+    <h3 class="section-title">WE MAKE EVERYTHING EASIER FOR YOU</h3>
+
+    <div class="feature-box">
+      <div class="feature-card">
+        <h4>Energetic Environment</h4>
+        <p>Train in a high-energy atmosphere</p>
+      </div>
+
+      <div class="feature-card active">
+        <h4>Flexible Schedule</h4>
+        <p>Choose your best training time</p>
+      </div>
+
+      <div class="feature-card">
+        <h4>Effective Exercises</h4>
+        <p>Best workouts for results</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="easy-section">
+  <div class="container">
+
+    <h2 class="easy-title">WE MAKE EVERYTHING EASIER FOR YOU</h2>
+
+    <div class="easy-cards">
+
+      <div class="easy-card active">
+        <img src="./Rectangle 46.png">
+        <div class="easy-content">
+          <h3>Personal Training</h3>
+          <p>Get personal trainer for best results</p>
+        </div>
+      </div>
+
+      <div class="easy-card">
+        <img src="./Rectangle 46 (1).png">
+        <div class="easy-content">
+          <h3>Group Workout</h3>
+          <p>Train together and stay motivated</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="contact-final">
+  <div class="container contact-wrap">
+
+    <!-- IMAGE -->
+    <div class="contact-left">
+      <img src="./Group 1 2.png" alt="">
+    </div>
+
+    <!-- FORM -->
+    <div class="contact-right">
+      <h2>CONTACT US</h2>
+
+      <form id="finalForm">
+
+        <div class="input-group">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="input-group">
+          <input type="text" placeholder="Phone">
+          <input type="text" placeholder="Subject">
+        </div>
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button class="send-btn">SEND</button>
+
+        <!-- CALL BUTTON -->
+<a href="tel:+998901234567" class="call-btn">📞 Call Us</a>
+
+<!-- REGISTER MODAL -->
+<div class="modal" id="registerModal">
+  <div class="modal-content">
+    <span id="closeModal">✖</span>
+    <h2>Register</h2>
+
+    <form id="registerForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button>Sign Up</button>
+    </form>
+  </div>
+</div>
+  </div>
+      </form>
+    </div>
+    <button class="r-btn" id="openRegister">Register</button>
+
+<div class="modal" id="registerModal">
+  <div class="modal-content">
+    <span id="closeModal">✖</span>
+
+    <form id="registerForm">
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button type="submit">Sign Up</button>
+    </form>
+
+  </div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="footer-final">
+  <div class="container footer-box">
+    <p>© 2026 Explosive Training</p>
+    <div class="socials">
+      <span>⚫</span>
+      <span>⚫</span>
+      <span>⚫</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
